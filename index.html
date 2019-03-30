@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+        <meta content="让我帮你百度一下吧。献给所有喜欢问他人问题而不是自己去搜索的人，知识的获取是需要脚踏实地去探索的。" name="description"/>
+        <meta content="让我帮你百度一下, 百度一下，百度, 伸手党福利" name="keywords"/>
+        <link href="./img/favicon.ico" rel="icon" type="image/x-icon"/>
+        <title>
+            百度一下，你就知道
+        </title>
+        <link href="./css/index.css" rel="stylesheet">
+        </link>
+    </head>
+    <body>
+        <div class="wb-header" id="header">
+            <span>
+                <img id="logo" src="./img/bd_logo.png"/>
+            </span>
+        </div>
+        <div class="wb-search" id="search">
+            <input autofocus="autofocus" id="search-input" type="text"/>
+            <button id="search-button">
+                百度一下
+            </button>
+        </div>
+        <div class="wb-tip" id="tip">
+            <span id="tip1">
+                我帮您教他如何使用百度搜索
+            </span>
+            <span id="tip2">
+                将问题输入后点击"百度一下"
+            </span>
+            <div class="wb-link" id="link">
+                <input id="tip-input" readonly="readonly" type="text"/>
+                <button class="copy" data-clipboard-target="#tip-input" id="tip-button">
+                    复制链接
+                </button>
+            </div>
+        </div>
+        <div class="wb-footer" id="footer">
+            <span>
+                . 
+        	百度(Baidu)是百度公司的商标，本产品和百度没有任何联系.
+            </span>
+            <br/>
+            <span>
+                CopyRight © 2019
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2440911975&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2440911975:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+                |
+                <a href="https://github.com/wolfbolin/baidux">
+                    源Github地址
+                </a>
+            </span>
+        </div>
+        <img class="wb-mouse" id="fake-mouse" src="./img/mouse.png"/>
+    </body>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js">
+    </script>
+    <script src="https://cdn.bootcss.com/clipboard.js/2.0.4/clipboard.min.js">
+    </script>
+    <script src="./js/index.js">
+    </script>
+</html>
